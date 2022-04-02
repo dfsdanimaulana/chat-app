@@ -1,0 +1,22 @@
+@use '../variables' as *;
+
+// buttons
+.btn {
+  
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  padding: 1.5rem 3.5rem;
+  
+  &-info {
+    background-color: $primary;
+  }
+  
+  &-white {
+    
+  }
+  
+  &-sm {}
+  &-md {}
+  &-lg {}
+}
