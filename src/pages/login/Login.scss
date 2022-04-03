@@ -1,7 +1,52 @@
 @use '../../sass/variables' as *;
+@use '../../sass/mixins' as *;
 
 .login {
-  width: 100vw;
-  height: 100vh;
-  background-color: $light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include respond(phone) {
+        max-width: 100vw;
+        min-height: 100vh;
+    }
+
+    min-height: 80vh;
+    width: 30vw;
+    background-color: $light;
+
+    &__button {
+        display: block;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.social {
+    @include respond(phone) {
+        max-width: 65vh;
+    }
+
+      max-width: 70%;
+    &__divider {
+        display: flex;
+        align-items: center;
+        &::before,
+        &::after {
+            content: '';
+            width: 100%;
+            background-color: rgba($black, 0.5);
+            height: 2px;
+        }
+
+        &::before {
+            transform: translateX(-5px);
+        }
+        &::after {
+            transform: translateX(5px);
+        }
+    }
 }

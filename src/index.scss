@@ -1,7 +1,6 @@
-@use './sass/mixins' as *;
+@use './sass/main';
 
-// components
-@use './sass/components/button' as *;
+@use './sass/mixins' as *;
 
 
 *,
