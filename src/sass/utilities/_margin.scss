@@ -10,6 +10,9 @@
     &-lg {
         margin-bottom: 5rem !important;
     }
+    &-auto {
+        margin-bottom: auto !important;
+    }
 }
 .mt {
     &-sm {
@@ -20,6 +23,9 @@
     }
     &-lg {
         margin-top: 5rem !important;
+    }
+    &-auto {
+        margin-top: auto !important;
     }
 }
 .ml {
@@ -32,6 +38,9 @@
     &-lg {
         margin-left: 5rem !important;
     }
+    &-auto {
+        margin-left: auto !important;
+    }
 }
 .mr {
     &-sm {
@@ -42,6 +51,9 @@
     }
     &-lg {
         margin-right: 5rem !important;
+    }
+    &-auto {
+        margin-right: auto !important;
     }
 }
 

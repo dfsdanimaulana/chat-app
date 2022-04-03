@@ -1,0 +1,51 @@
+@use 'variables' as *;
+
+// heading 
+.heading {
+  font-family: 'Lato', sans-serif;
+  &-sm {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  &-md {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  &-lg {
+    font-weight: 900;
+    font-size: 6rem;
+  }
+}
+
+// font weight
+.fw {
+  &-1 {
+    font-weight: 100 !important;
+  }
+  &-3 {
+    font-weight: 300 !important;
+  }
+  &-4 {
+    font-weight: 400 !important;
+  }
+  &-7 {
+    font-weight: 700 !important;
+  }
+  &-9 {
+    font-weight: 900 !important;
+  }
+}
+
+// default link
+.text-link {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $primary;
+  }
+  
+  &:hover {
+    color: $white;
+  }
+}

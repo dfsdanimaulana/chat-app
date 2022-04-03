@@ -48,3 +48,15 @@ $breakpoint argument choices:
         }
     }
 }
+
+@mixin flex-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@mixin flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
