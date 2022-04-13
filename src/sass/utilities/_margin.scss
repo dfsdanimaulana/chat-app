@@ -1,14 +1,36 @@
+@use '../variables' as *;
+
 // margin
 
-.mb {
+.m {
     &-sm {
-        margin-bottom: 1rem !important;
+        margin: $sm !important;
     }
     &-md {
-        margin-bottom: 3rem !important;
+        margin: $md !important;
     }
     &-lg {
-        margin-bottom: 5rem !important;
+        margin: $lg !important;
+    }
+    &-xl {
+        margin: $xl !important;
+    }
+    &-auto {
+        margin: auto !important;
+    }
+}
+.mb {
+    &-sm {
+        margin-bottom: $sm !important;
+    }
+    &-md {
+        margin-bottom: $md !important;
+    }
+    &-lg {
+        margin-bottom: $lg !important;
+    }
+    &-xl {
+        margin-bottom: $xl !important;
     }
     &-auto {
         margin-bottom: auto !important;
@@ -16,13 +38,16 @@
 }
 .mt {
     &-sm {
-        margin-top: 1rem !important;
+        margin-top: $sm !important;
     }
     &-md {
-        margin-top: 3rem !important;
+        margin-top: $md !important;
     }
     &-lg {
-        margin-top: 5rem !important;
+        margin-top: $lg !important;
+    }
+    &-xl {
+        margin-top: $xl !important;
     }
     &-auto {
         margin-top: auto !important;
@@ -30,13 +55,16 @@
 }
 .ml {
     &-sm {
-        margin-left: 1rem !important;
+        margin-left: $sm !important;
     }
     &-md {
-        margin-left: 3rem !important;
+        margin-left: $md !important;
     }
     &-lg {
-        margin-left: 5rem !important;
+        margin-left: $lg !important;
+    }
+    &-xl {
+        margin-left: $xl !important;
     }
     &-auto {
         margin-left: auto !important;
@@ -44,13 +72,16 @@
 }
 .mr {
     &-sm {
-        margin-right: 1rem !important;
+        margin-right: $sm !important;
     }
     &-md {
-        margin-right: 3rem !important;
+        margin-right: $md !important;
     }
     &-lg {
-        margin-right: 5rem !important;
+        margin-right: $lg !important;
+    }
+    &-xl {
+        margin-right: $xl !important;
     }
     &-auto {
         margin-right: auto !important;
@@ -59,30 +90,38 @@
 
 .mx {
     &-sm {
-        margin-right: 1rem !important;
-        margin-left: 1rem !important;
+        margin-right: $sm !important;
+        margin-left: $sm !important;
     }
     &-md {
-        margin-right: 3rem !important;
-        margin-left: 3rem !important;
+        margin-right: $md !important;
+        margin-left: $md !important;
     }
     &-lg {
-        margin-right: 5rem !important;
-        margin-left: 5rem !important;
+        margin-right: $lg !important;
+        margin-left: $lg !important;
+    }
+    &-xl {
+        margin-right: $xl !important;
+        margin-left: $xl !important;
     }
 }
 
 .my {
     &-sm {
-        margin-top: 1rem !important;
-        margin-bottom: 1rem !important;
+        margin-top: $sm !important;
+        margin-bottom: $sm !important;
     }
     &-md {
-        margin-top: 3rem !important;
-        margin-bottom: 3rem !important;
+        margin-top: $md !important;
+        margin-bottom: $md !important;
     }
     &-lg {
-        margin-top: 5rem !important;
-        margin-bottom: 5rem !important;
+        margin-top: $lg !important;
+        margin-bottom: $lg !important;
+    }
+    &-xl {
+        margin-top: $xl !important;
+        margin-bottom: $xl !important;
     }
 }

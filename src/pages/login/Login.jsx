@@ -19,5 +19,5 @@ export default function Login() {
         <Link to="/signup" className="fw-9 text-link">Signup here</Link>
       </div>
     </div>
-    ) 
+  ) 
 }

@@ -1,0 +1,61 @@
+@mixin width-value {
+  &-10 {
+    width: 10% !important;
+  }
+  &-25 {
+    width: 25% !important;
+  }
+  &-50 {
+    width: 50% !important;
+  }
+  &-75 {
+    width: 75% !important;
+  }
+  &-100 {
+    width: 100% !important;
+  }
+}
+
+@mixin height-value {
+    &-10 {
+      height: 10% !important;
+    }
+    &-25 {
+      height: 25% !important;
+    }
+    &-50 {
+      height: 50% !important;
+    }
+    &-75 {
+      height: 75% !important;
+    }
+    &-100 {
+      height: 100% !important;
+    }
+}
+
+.w {
+  
+  @include width-value;
+  
+  &-min {
+    @include width-value;
+  }
+  
+  &-max {
+    @include width-value;
+  }
+  
+}
+
+.h {
+  @include height-value;
+  
+  &-min {
+    @include height-value;
+  }
+  
+  &-max {
+    @include height-value;
+  }
+}

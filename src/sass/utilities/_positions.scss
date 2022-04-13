@@ -10,3 +10,19 @@
         text-align: end;
     }
 }
+
+// position
+
+.pos {
+  &-a {
+    position: absolute;
+  }
+  
+  &-r {
+    position: relative;
+  }
+  
+  &-f {
+    position: fixed;
+  }
+}
