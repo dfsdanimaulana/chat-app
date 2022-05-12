@@ -14,7 +14,7 @@ export default function Signup() {
   return (
     <div className="signup">
       <h1 className="heading heading-lg my-lg">DanApp</h1>
-      <form className="signup__form form-group" onSubmit={handleSubmit()}>
+      <form className="signup__form form-group" onSubmit={handleSubmit}>
         <input 
           type="email" 
           className="form-input"

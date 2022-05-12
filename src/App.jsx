@@ -13,14 +13,6 @@ export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      {/*
-        <nav>
-          <h1>Dan Chat App</h1>
-          <Link to="/">Home</Link>
-          <Link to="/login">Login</Link>
-          <Link to="/signup">Signup</Link>
-        </nav>
-      */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
